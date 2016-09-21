@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<style>
+
+body {
+background-image: url('6.jpg');
+}
+h1{
+text-align:center;
+margin-top:0px;
+margin-bottom:1em;
+color:#ffff00;
+font-family:Arial, Helvetica, Verdana, Sans-Serif;
+
+font-size:200%;
+font-weight:bold;
+}
+
+/* Стиль галереи */
+.blockimgs img {
+-webkit-transition: all 0.3s ease-out; /* заставляем плавно изменять css св-ва */
+-moz-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+-ms-transition: all 0.3s ease-out;
+height: 188px;
+width: 177px;
+overflow: hidden;
+border: 10px solid #fff;
+border: 10px solid #eee\9;
+-webkit-box-shadow: 2px 3px 10px #6E6E6E;
+box-shadow: 2px 3px 10px #6E6E6E;
+float: left;
+cursor: pointer; }
+
+.blockimgs { display: table-cell; float: left; height: 230; min-height: 180px; width: 212px; }
+.blockimgs img:hover {
+transform:scale(2); /* увеличиваем картинку при наведении */
+-webkit-transform:scale(2);
+-moz-transform:scale(2);
+-o-transform:scale(2);
+margin-left: 150px;
+margin-top: 200px;
+box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+z-index: 200; }
+</style>
+<body>
+<h1> Наша команда <h1>
+<div style="margin-left: 8px; height: 230px;">
+<div class="blockimgs"><img alt="" src="1.jpg" /></div>
+<div class="blockimgs"><img alt="" src="2.jpg" /></div>
+<div class="blockimgs"><img alt="" src="3.jpg" /></div>
+<div class="blockimgs"><img alt="" src="4.jpg" /></div>
+<div class="blockimgs"><img alt="" src="5.jpg" /></div>
+</div>
+<audio src="sound.wav" align=left autoplay controls></audio>
+</body>
+</html>
