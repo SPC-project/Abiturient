@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+	background: url(bckg.jpg)no-repeat;
+	background-attachment:fixed; 
+	background-size: cover;
+	    font: normal 14px/22px Arial, Helvetica, Geneva, sans-serif;
+}
+p{
+  font-family: "Monotype Corsiva" Cursive;
+}
+#featureImg{
+	width:100%;
+	height:auto;
+}
+#mapimg{
+	width:60%;
+	height:auto;
+	 padding: 10px 30px 0px 150px ;
+}
+.adress{
+    padding: 10px 30px;
+	display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	text-align: center!important;
+}
+}
