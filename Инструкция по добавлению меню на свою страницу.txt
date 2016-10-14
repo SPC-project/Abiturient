@@ -1,0 +1,101 @@
+1) Добавить следующий код в .html файл:
+    <head>
+ 
+		<script type="text/javascript" src="js/jquery-1.2.6.min.js"></script> 
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+		<script type="text/javascript"> 
+  $(function() {
+  $('#navigation > div').hover(
+  function () {
+  var $this = $(this);
+  //$this.find('.images').fadeIn();
+  $this.find('a.menu').removeClass('menu').addClass('hovered');
+  $this.find('.images').stop().animate({
+    'width'     :'230px',
+    'height'    :'390px',
+    'opacity'   :'1.0'
+},400,'easeOutBack',function(){
+  $(this).parent().find('div').fadeIn('fast');
+ });
+},
+  function () {
+  var $this = $(this);
+  $this.find('div').fadeOut(500);
+  //$this.find('.images').hide();
+  $this.find('a.hovered').removeClass('hovered').addClass('menu');
+  $this.find('.images').stop().animate({
+    'width'     :'100px',
+    'height'    :'0px',
+    'top'       :'0px',
+    'left'      :'0px',
+    'opacity'   :'0.9'
+},600,'easeOutBack'); 
+   }
+  );
+});
+</script>
+    </head>
+    <body>
+	
+		<div id="content"> 
+<div class="total_images" id="navigation">
+<div class="eachs" id="link1"> 
+  <a href="index.html" class="menu" style=" width:90px;">Главная</a>
+  <img src="images/bg-3.png" alt="" width="140" height="140" class="images"/> 
+  <div> 
+    <ul>
+      <li><a href="#">Пункт</a></li>
+      <li><a href="#">Пункт</a></li>
+      <li><a href="#">Пункт</a></li>
+      <li><a href="#">Пункт</a></li>
+      <li><a href="#">Пункт</a></li>
+      <li><a href="#">Пункт</a></li>
+    </ul>
+  </div>  
+</div> 
+<div class="eachs" id="link2"> 
+  <a href="#" class="menu" style=" width:110px;">Калькулятор</a>
+  <img src="images/bg-2.png" alt="" width="140" height="140" class="images"/> 
+  <div> 
+    <ul>
+      <li><a href="#">Пункт</a></li>
+      <li><a href="#">Пункт</a></li>
+      <li><a href="#">Пункт</a></li>
+    </ul>
+  </div>  
+</div> 
+<div class="eachs" id="link3"> 
+  <a href="#" class="menu" style=" width:100px;">Шото еще</a>
+  <img src="images/bg-2.png" alt="" width="160" height="199" class="images"/> 
+  <div> 
+    <ul>
+      <li><a href="#">Пункт</a></li>
+      <li><a href="#">Пункт</a></li>
+      <li><a href="#">Пункт</a></li>
+    </ul>                    
+  </div> 
+ </div> 
+<div class="eachs" id="link4"> 
+  <a href="#" class="menu" style=" width:80px;">О нас</a>
+  <img src="images/bg-3.png" alt="" width="140" height="140" class="images"/> 
+  <div>
+    <ul>
+      <li><a href="#">Пункт</a></li>
+      <li><a href="#">Пункт</a></li>
+      <li><a href="#">Пункт</a></li>
+      <li><a href="#">Пункт</a></li>
+      <li><a href="#">Пункт</a></li>
+      <li><a href="#">Пункт</a></li>
+    </ul>                    
+  </div> 
+ </div> 
+<div class="eachs" id="link5"> 
+  <a href="contacts.html" class="menu" style=" width:120px;">Контакты</a>
+  </div> 
+</div> 
+</div>
+<body>
+
+2) Обратите внимание, что должен быть подключен файл style.css - в нём находятся необходимые для работы меню стили (см. также инструкцию по подключению Google fonts).
+3) Поскольку меню построено не только на CSS и HTML, а также на js, а точнее на jquery, необходимо подключить эту библиотеку. В .html файл js уже импортирован. 
+   Сами же файлы находятся в папке js, для локальной работы файлов на вашем компе, синхронизируйте репозиторий, чтобы эта папка появилась у вас.
