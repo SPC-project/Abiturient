@@ -114,7 +114,13 @@ h1 { font-family: Philosopher; }
  padding:4px 0px 0px 0px;
  font-size:17px;
 }
+
+.ua{
+}
+
 /*Menu*/
+
+/*
 .total_images{ margin: 0px auto; font-family: "Philosopher", sans-serif;
   font-size: 24px; font-style: normal; font-weight: bold; letter-spacing: 1.4px;
 }
@@ -154,3 +160,5 @@ text-align: center; color: #eee; text-shadow: 0px 2px 6px #333;
 .eachs div li a{ font-size:12px; width:160px;padding-top:15px; vertical-align:bottom;  display:block; }
 .eachs div li a:hover{ color:#FF0000}
 .eachs div a{ text-decoration:none; text-transform:uppercase;color:#fff; }
+*/
+
