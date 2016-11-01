@@ -83,8 +83,8 @@ h1 { font-family: Philosopher; }
  .sharesv {
  width: 202px;
  height: 36px;
- margin-left: 80px;
- background: url(../images/yansv.png) 0 center no-repeat;
+ margin-left: 98px;
+/* background: url(../images/yansv.png) 0 center no-repeat;*/
  
 }
 .share-new {
