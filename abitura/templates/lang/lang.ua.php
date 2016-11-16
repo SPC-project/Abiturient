@@ -18,7 +18,7 @@ $Lang = array(
   "about_project" => "О проекте",
  "contacts"=> "Контакти",
   //основнйо контент
- "documents_for_admission" => "Документ до вступу",
+ "documents_for_admission" => "Документи до вступу",
  "lists_received" => "Списки вступивших",
  "department_of_Pictures" => "Фотографії кафедри",
  "video_of_the_department"=> "Відео кафедри",
