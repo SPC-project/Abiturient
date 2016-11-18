@@ -1,9 +1,9 @@
 html, body {
       margin: 0;
-      padding: 0;
+      padding: auto;
     }
 
-    * {
+    *{
       box-sizing: content-box;
     }
 
@@ -13,11 +13,11 @@ html, body {
     }
 
     .slick-slide {
-      margin: 100px 5px;
+      margin: 100px 1px;
     }
 
     .slick-slide img {
-      width: 99%;
+      width: 100%;
     }
 
     .slick-prev:before,
@@ -25,37 +25,36 @@ html, body {
         color: black;
     }
 	
-	img:hover{
- width: 100%;
- height: 100%;
- box-shadow: 0 12px 6px -6px #666,0 0 3px 0 #ccc;
+	#img1:hover{
+ width: 200px;
+ height: auto;
+ box-shadow: 0 auto 6px -6px #666,0 0 9px 0 #ccc;
  margin: -1% 0% 0% -1%;
  border-radius:75px;
  CURSOR:pointer;
 }
 	
  .blockimgs img{ 
--webkit-transition:all 0.9s ease-out;/* Заставляем плавно изменять css св-ва*/ 
--moz-transition:all 0.25s ease-out; 
--o-transition:all 0.25s ease-out; 
--ms-transition:all 0.25s ease-out; 
-height:300px; 
-width:100ppx; 
+-webkit-transition:all 0.9s ease-out;/* Р—Р°СЃС‚Р°РІР»СЏРµРј РїР»Р°РІРЅРѕ РёР·РјРµРЅСЏС‚СЊ css СЃРІ-РІР°*/ 
+-moz-transition:all 0.9s ease-out; 
+-o-transition:all 0.9s ease-out; 
+-ms-transition:all 0.9s ease-out; 
+height:auto; 
+width:200px; 
 overflow:hidden; 
--webkit-box-shadow:2mm 3mm 10px #6E6E6E; 
-box-shadow:2px 3px 10px #6E6E6E; 
+-webkit-box-shadow:1mm auto 10px #6E6E6E; 
+box-shadow:1px auto 10px #6E6E6E; 
 float:center; 
 cursor:pointer; 
 } 
-.blockimgs { display:table-cell; float:left; height:330; min-height:180px; width:212px;} 
+.blockimgs { display:table-cell; float:left; height:auto; min-height:auto; width:212px;} 
 .blockimgs img:hover{ 
-transform:scale(2); /* Увеличиваем картинку при наведении*/ 
--webkit-transform:scale(2); 
--moz-transform:scale(2); 
--o-transform:scale(2); 
-
+transform:scale(3); /* РЈРІРµР»РёС‡РёРІР°РµРј РєР°СЂС‚РёРЅРєСѓ РїСЂРё РЅР°РІРµРґРµРЅРёРё*/ 
+-webkit-transform:scale(3); 
+-moz-transform:scale(3); 
+-o-transform:scale(3); 
 margin-left:10px;
-margin-top:20px;
+margin-top:10px;
 box-shadow:0 10px 15px rgba(0,0,0,0.5);
 z-index:200;}
 
@@ -80,4 +79,3 @@ z-index:200;}
 	height: 50px;
 	overflow: hidden;
 }
-
