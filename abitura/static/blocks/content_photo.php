@@ -155,72 +155,72 @@
  <p> <font face="Monotype Corsiva" size="+3" color="black" > <center> <b><?php echo $Lang['teachers']; ?></b></center> </font></p> 
   <section class="regular slider">
     <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/Breslavskiy_thumb.jpg">
+      <img id="img1" src="../static/images/img_photo/teachers/Breslavskiy.jpg">
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t1']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d1']; ?></div>   
     </div>
     <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/PhotoYura_thumb.jpg">
+      <img id="img1" src="../static/images/img_photo/teachers/PhotoYura.jpg">
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t2']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d2']; ?></div> 
     </div>
     <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/Plakciy_thumb.jpg">
+      <img id="img1" src="../static/images/img_photo/teachers/Plakciy.jpg">
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t3']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d3']; ?></div>
     </div>
     <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/Uspensky_thumb.jpg">
+      <img id="img1" src="../static/images/img_photo/teachers/Uspensky.jpg">
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t4']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d4']; ?></div>  
     </div>
     <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/Korytko_thumb.jpg">
+      <img id="img1" src="../static/images/img_photo/teachers/Korytko.jpg">
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t5']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d5']; ?></div>
     </div>
     <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/Tatarinova_thumb.jpg">
+      <img id="img1" src="../static/images/img_photo/teachers/Tatarinova.jpg">
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t6']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d6']; ?></div> 
     </div>
 	 <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/Nekrasova_thumb.jpg">
+      <img id="img1" src="../static/images/img_photo/teachers/Nekrasova.jpg">
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t7']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d7']; ?></div>
     </div>
 	 <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/Grizun_thumb.jpg">
+      <img id="img1" src="../static/images/img_photo/teachers/Grizun.jpg">
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t8']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d8']; ?></div>
     </div>
 	 <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/Hazko_thumb.jpg">
+      <img id="img1" src="../static/images/img_photo/teachers/Hazko.jpg">
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t9']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d8']; ?></div> 
     </div>
 	 <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/Kozluk_thumb.jpg">
+      <img id="img1" src="../static/images/img_photo/teachers/Kozluk.jpg">
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t10']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d10']; ?></div> 
     </div>
 	 <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/Metelev_thumb.jpg">
+      <img id="img1" src="../static/images/img_photo/teachers/Metelev.jpg">
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t11']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d11']; ?></div> 
     </div>
 	 <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/Papazov_thumb.jpg">
+      <img id="img1" src="../static/images/img_photo/teachers/Papazov.jpg">
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t12']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d10']; ?></div>   
     </div>
 	 <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/pashenko_thumb.jpg">
+      <img id="img1" src="../static/images/img_photo/teachers/pashenko.jpg">
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t13']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d10']; ?></pre></div> 
     </div>
 	 <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/PC3100841_thumb.jpg">
+      <img id="img1" src="../static/images/img_photo/teachers/PC3100841.jpg">
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t14']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d14']; ?></div>  
     </div>
