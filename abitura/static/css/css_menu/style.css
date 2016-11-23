@@ -1,27 +1,41 @@
 /*html body*/
 
-html, body {
+body {
     margin: 0;
     padding: 0;
-	background: url(../images/bckg.jpg)no-repeat;
+	background: url(../../images/images/bckg1.jpg)no-repeat;
 	background-color: #F5F5DC;
 	background-attachment:fixed; 
 	background-size: cover;
 	font-family: 'Philosopher', sans-serif;
 }
+/*
+#header {
+	background-image: url(../../images/images/main.jpg); 
+	background-repeat: repeat-x;
+	background-position: top-center;
+	min-height: 250px;
+	width: 100px;
+	height: 100px;
+    position:relative;
+}
+*/
 p{
   font-family: "Monotype Corsiva" Cursive;
+  text-align:center;
 }
-h1 { font-family: Philosopher; }
+h1, h2 { font-family: Philosopher; 
+text-align:center;
+}
 /*map image with link*/
 #featureImg{
 	width:100%;
 	height:auto;
 }
 #mapimg{
-	width:60%;
+	width:50%;
 	height:auto;
-	 padding: 10px 30px 0px 150px ;
+	padding: 20px 70px 0px 10px ;
 }
 /*adress div*/
 .adress{
@@ -83,19 +97,17 @@ h1 { font-family: Philosopher; }
  .sharesv {
  width: 202px;
  height: 36px;
- margin-left: 98px;
-/* background: url(../images/yansv.png) 0 center no-repeat;*/
- 
+ margin-left: 80px; 
 }
 .share-new {
- margin: 10px 0 10px 25px;
+margin: 10px 0 10px 25px;
  }
  .share-new a {
  display:inline-block;
  width: 32px;
  height: 32px;
  margin-left: 125px;
- margin: 0 7px 0 0;
+ margin: 0 7px 0 100px;
  opacity: 0.6;
  -moz-transition: all 0.2s 0.01s ease-in;
  -o-transition: all 0.2s 0.01s ease-in;
@@ -104,68 +116,17 @@ h1 { font-family: Philosopher; }
  opacity: 1.0;
  }
  .share-new .icon-vk {
-	  margin-left: 115px;
- background: url(../images/vk-icon.png) 0 center no-repeat;
+	  margin-left: -25px;
+ background: url(../../images/images/vk-icon.png) 0 center no-repeat;
  padding:4px 0px 0px 0px;
  font-size:17px;
 }
 .share-new .icon-mail {
- background: url(../images/email-variation.png) 0 center no-repeat;
+	margin-left: 0px;
+ background: url(../../images/images/email-variation.png) 0 center no-repeat;
  padding:4px 0px 0px 0px;
  font-size:17px;
 }
 
-.ua{
-}
-
-/*footer*/
-#footer { 
- position: relative;
-	margin-top: -50px; /* negative value of footer height */
-	height: 50px;
-	clear:both;} 
-
-/*Menu*/
-
-/*
-.total_images{ margin: 0px auto; font-family: "Philosopher", sans-serif;
-  font-size: 24px; font-style: normal; font-weight: bold; letter-spacing: 1.4px;
-}
-.total_images .eachs{ position:fixed;
-z-index: 9999;
-opacity: 0.7;
-}
-#link1{ top:10px; left:50px; }
-#link2{ top:10px; left:170px; }
-#link3{ top:10px; left:328px; }
-#link4{ top:10px; left:456px; }
-#link5{ top:10px; left:564px; }
-.eachs img.images{ width:230px; height:390px; opacity:1; display:none; }
-.eachs h2{ position:absolute; width:147px; height:52px; color:#222; font-size:18px;
-  top:0px; left:52px; text-indent:10px; line-height:52px; text-shadow:1px 1px 1px #fff;
-  text-transform:uppercase;
-}
-.eachs h2.active{ color:#fff; text-shadow:1px 0px 1px #555; }
-a.hovered{color:#fff; height:22px; display:block; padding:8px;-moz-border-radius: 
-5px;text-shadow: 0px 2px 6px #A81C1F; background-color:#0099CC; text-decoration:none; 
--webkit-border-radius: 5px; 
-}	
-a.menu{ color:#fff; height:22px; display:block; padding:8px;-moz-border-radius: 5px; 
-background-color:#DB2D39; color:#FFFFFF; text-decoration:none; -webkit-border-radius: 5px;
-}
-.total_images .eachs a.menu:hover{color:#fff;-moz-border-radius: 5px;
-text-shadow: 0px 2px 6px #A81C1F; background-color:#A81C1F; -webkit-border-radius: 5px; 
-}
-.eachs {width:105px; text-align:center; font: bold 20px/20px Philosopher, Sans-serif; 
-text-align: center; color: #eee; text-shadow: 0px 2px 6px #333;
-}
-.eachs div{ list-style:none; position:absolute; width:110px; left:10px;
-  top:55px; font-size:20px; color:#fff; text-align:center; display:none;
-}
-.eachs div ul{ margin:14px; padding:0px 0px 0px 0px; list-style-type:none;}
-.eachs div li{ width:160px;}
-.eachs div li a{ font-size:12px; width:160px;padding-top:15px; vertical-align:bottom;  display:block; }
-.eachs div li a:hover{ color:#FF0000}
-.eachs div a{ text-decoration:none; text-transform:uppercase;color:#fff; }
-*/
+ 
 
