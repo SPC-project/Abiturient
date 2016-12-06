@@ -6,6 +6,7 @@
 $Lang = array(
  "title" 		=> "Home", 
  // Меню
+ "shapka" => "<h2><span> NATIONAL TECHNICAL UNIVERSITY <br> KHARKIV POLYTECHNIC INSTITUTE <br> KAFEDRA SYSTEM END CONTROL PROCESSES </span> </h2>",
  "index_menu"	=> "Home",
  "contact_menu" => "Information",
  "latest_news"		=> "Last news",
@@ -77,7 +78,7 @@ All rights reserved. Full or partial use of materials without the consent of the
   the Department of Systems and 
   Processes Control</pre>",
  "t7" => "Nekrasov Maria Vladimirovna",
- "d7" => "<br>- Associate Professor of",
+ "d7" => "- Associate Professor of",
  "t8" => "Grizun Maria Nikolaevna",
   "d8" => "<pre>- Senior lecturer
 - Candidate of Technical Sciences</pre>",
@@ -86,12 +87,8 @@ All rights reserved. Full or partial use of materials without the consent of the
   "d10" => "<pre>- Assistant Professor
 - Graduate student</pre>",
  "t11" => "Metelev Vladimir Aleksandrovich",
- "d11" => "<br>- Assistant Professor",
- "t12" => "Papazov Sergey Viktorovich",
+ "d11" => "- Assistant Professor",
  "t13" => "Pascenco Sergey Aleksandrovich",
- "t14" => "Galas Oleg Sergeevich",
-  "d14" => "<pre>- Junior Researcher
-- Candidate of Technical Sciences</pre>",
 //o.k calculatora
 "chances" => "<h1> Calculate Your Chances</h1>
 <h1>On Receipt</h1>",

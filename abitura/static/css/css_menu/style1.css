@@ -1,6 +1,6 @@
 /* Eric Meyer's CSS Reset */
-html, body, div, span, applet, object, iframe,
-h2, h3, h4, h5, h6, blockquote, pre,
+html, body, div, applet, object, iframe,
+ h3, h4, h5, h6, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -51,10 +51,24 @@ body {
 }
 
 #shapka{
+  position:relative;
   background: #378cc4 url(../../images/images/shapka.jpg) no-repeat center;
-  height: 250px;
+  height: 175px;
 }
 
+h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    }
+h2 span {
+    color: black;
+    font-size: 30px;
+    line-height: 55px;
+    padding: 10px;
+    }
+	
 .wrapper {
 	width: 1366px;
 	margin: 0 auto;

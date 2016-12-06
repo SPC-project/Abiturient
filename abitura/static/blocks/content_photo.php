@@ -218,21 +218,12 @@
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t11']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d11']; ?></div> 
     </div>
-	 <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/Papazov.jpg">
-	  <div class="amazingcarousel-title"><b><?php echo $Lang['t12']; ?></b></div>
-<div class="amazingcarousel-description"><?php echo $Lang['d10']; ?></div>   
-    </div>
-	 <div class="blockimgs">
+<div class="blockimgs">
       <img id="img1" src="../static/images/img_photo/teachers/pashenko.jpg">
 	  <div class="amazingcarousel-title"><b><?php echo $Lang['t13']; ?></b></div>
 <div class="amazingcarousel-description"><?php echo $Lang['d10']; ?></pre></div> 
     </div>
-	 <div class="blockimgs">
-      <img id="img1" src="../static/images/img_photo/teachers/PC3100841.jpg">
-	  <div class="amazingcarousel-title"><b><?php echo $Lang['t14']; ?></b></div>
-<div class="amazingcarousel-description"><?php echo $Lang['d14']; ?></div>  
-    </div>
+	 
   </section>
 </div>
 <br><br><br>

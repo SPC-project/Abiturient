@@ -13,7 +13,7 @@
 </head>
 
 <body>
-<div id="shapka"></div>
+<div id="shapka"><?php echo $Lang['shapka']; ?></div>
 <div class="wrapper">
 	<table width="100%">
 	<header class="header">

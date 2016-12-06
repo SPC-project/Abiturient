@@ -12,7 +12,7 @@
 <table>
   <tr>
     <td align="center"><p class="adress" style="font-size: 16pt"><?php echo $Lang['address']; ?>
-				<h2><?php echo $Lang['communication']; ?> :)</h2>
+				<h1><?php echo $Lang['communication']; ?> :)</h1>
 	<div class="share-new">
 		<a class="icon-vk" href="https://vk.com/official_spu" title="<?php echo $Lang['vk'];?>" target="_blank"></a>
 		<a class="icon-mail" href="mailto:aectann101@gmail" title="<?php echo $Lang['email']; ?>" > <!-- target="_blank" --> </a>
