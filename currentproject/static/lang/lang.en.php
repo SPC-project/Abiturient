@@ -6,7 +6,11 @@
 $Lang = array(
  "title" 		=> "Home", 
  // Меню
+<<<<<<< HEAD:currentproject/static/lang/lang.en.php
  "shapka" => "<h2><span> NATIONAL TECHNICAL UNIVERSITY <br> KHARKIV POLYTECHNIC INSTITUTE <br> DEPARTMENT OF THE PROCESSES AND SYSTEMS MODELING </span> </h2>",
+=======
+ "shapka" => "<h2><span> NATIONAL TECHNICAL UNIVERSITY <br> KHARKIV POLYTECHNIC INSTITUTE <br> KAFEDRA SYSTEM END CONTROL PROCESSES </span> </h2>",
+>>>>>>> origin/gh-pages:abitura/static/lang/lang.en.php
  "index_menu"	=> "Home",
  "contact_menu" => "Information",
  "latest_news"		=> "Last news",
