@@ -1,6 +1,0 @@
-1) Добавить следующий код в html:
-    <head>
-	<link href="css/style.css" rel="stylesheet" type="text/css"/>						     <!-- Обращение к файлу .css, в котором подключен шрифт для тела страницы (отдельных элементов),
-									     						  Если ваш .css имеет такое же название, измените, в итоге всё равно скинем всё в один -->
-	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Dancing+Script|Philosopher" rel="stylesheet"> <!-- Импорт шрифта -->
-    </head>
