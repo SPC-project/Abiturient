@@ -9,9 +9,16 @@
 		<link href="../static/css/css_menu/menu.css" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" type="text/css" href="../static/css/css_menu/component.css" />
 		<link rel="stylesheet" type="text/css" href="../static/css/calculator/css_calculator.css" />
-		<script src="../static/js/js_calculator/calculator.js" type="text/javascript"></script>
+<!--		<script src="../static/js/js_calculator/calculator.js" type="text/javascript"></script>
+-->
 		<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Dancing+Script|Philosopher" rel="stylesheet">
 		<link rel="shortcut icon" href="../static/images/images/icon.jpg" type="image/jpg">
+		
+		<style>
+		body{
+			font-family: 'Philosopher', sans-serif;
+		}
+		</style>
 </head>
 
 <body>
@@ -36,4 +43,8 @@
 		require_once "../static/blocks/footer.php";
 	?>
 	</footer>	
+	
+	
+
+	
 </body>

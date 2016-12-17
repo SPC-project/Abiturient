@@ -15,7 +15,7 @@
 </head>
 
 <body>
-<div id="shapka"><?php echo $Lang['shapka']; ?></div>
+<div id="shapka"><p style="font-size:16px;"><?php echo $Lang['shapka']; ?></p></div>
 
 <div class="wrapper">
 

@@ -1,9 +1,4 @@
-<<<<<<< HEAD:currentproject/static/css/css_menu/style1.css
 /*html, body, div, applet, object, iframe,
-=======
-/* Eric Meyer's CSS Reset */
-html, body, div, applet, object, iframe,
->>>>>>> origin/gh-pages:abitura/static/css/css_menu/style1.css
  h3, h4, h5, h6, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -64,15 +59,27 @@ h2 {
     left: 0;
     width: 100%;
     }
+	h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    }
 h2 span {
+    color: black;
+    font-size: 22px;
+    line-height: 27px;
+
+    }
+	
+	h3 span {
     color: black;
     font-size: 30px;
     line-height: 55px;
     padding: 10px;
     }
-	
 .wrapper {
-	width: 1366px;
+	width: auto;
 	margin: 0 auto;
 	min-height: 100%;
 	height: auto !important;

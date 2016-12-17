@@ -6,11 +6,7 @@
 $Lang = array(
  "title" 		=> "Home", 
  // Меню
-<<<<<<< HEAD:currentproject/static/lang/lang.en.php
- "shapka" => "<h2><span> NATIONAL TECHNICAL UNIVERSITY <br> KHARKIV POLYTECHNIC INSTITUTE <br> DEPARTMENT OF THE PROCESSES AND SYSTEMS MODELING </span> </h2>",
-=======
- "shapka" => "<h2><span> NATIONAL TECHNICAL UNIVERSITY <br> KHARKIV POLYTECHNIC INSTITUTE <br> KAFEDRA SYSTEM END CONTROL PROCESSES </span> </h2>",
->>>>>>> origin/gh-pages:abitura/static/lang/lang.en.php
+ "shapka" => "<h2><span> <p style='margin-right: 130px;'>NATIONAL TECHNICAL UNIVERSITY <br> KHARKIV POLYTECHNIC INSTITUTE <br></p><p style='margin-right: 130px;'> DEPARTMENT OF THE PROCESSES AND SYSTEMS COMPUTER MODELING </p></span> </h2>",
  "index_menu"	=> "Home",
  "contact_menu" => "Information",
  "latest_news"		=> "Last news",
@@ -123,6 +119,36 @@ authentic you fill out the form, the more accurate will be the results of calcul
  this site.
 
 </br> 3. Before submitting documents recommend that you talk with the members of the selection committee through our online
-site to get answers to all your questions."
- );
+site to get answers to all your questions.",
+//translate for projects page.
+"other" => "<b>Other projects of our department</b>",
+"other_description" => "In addition to this project for the students, at the Department of CMPS have been developed and others.",
+"department_site" => "<i><b>Site of computer modeling of processes and systems department</b></i>",
+"department_site_description" => "<b>Site of the department at NTU 'KHPI' </b> - our department is always distinguished by the fact that our students and teachers themselves design and build their own websites.
+At the department it had a lot of sites, but over time they have been combined into one for the convenience of our abiterientov, students and staff :)",
+
+"VK" => "<i><b>VK community </b></i>", 
+
+"VK_description" => "In our <b> VK </b> community you'll always get advice on any questions you are interested in our faculty and students,
+who are also administrators of our community. Also, you will find a lot of interesting and useful information for <i> future programmer </i>,
+and just for the person who wants to <i> fully develop </i> and be familiar with the latest technologies and developments.
+<B> For students </b> of the department there is always information about the dates of <b> protection of student projects, meetings, conferences </b> and other necessary information. ", 
+
+"students_record_book" => "<i><b>Electronic student's record-book</b></i>", 
+
+"students_record_book_description" => "In 2013, two groups of students specialties 'Computer Science' and 'Systems Engineering' under the direction of associate professor YN Korytko, a system
+accounting and control students' progress department. This development is a web-application written in php in c using
+DBMS MySQL. During the semester, students work on a project carried out various roles - code developers and designers, architects, testers,
+designers who have gained experience in the preparation and writing of technical documentation, the organization of teamwork. Despite the academic nature of the work,
+created a software tool has a satisfactory quality and is planned to be used in the educational process of the department. </p>", 
+
+"course_project" => "<i><b>Lecture web resource for student</b></i>", 
+
+"course_project_description" => "<b>In 2016 </b> student <b> 4 th </b> of the course specialty <b> <i> 'Computer Science' </i> </b> within the course the project was designed website
+ with a course of lectures for online applicants. Lectures written by the author of the project, as well as several teachers of the department <b> <i> ILAC </i> </b>.
+ The lectures will give an applicant a lot of new information that will help you understand what they do <b> IT-specialists </b>, find out
+ where graduates of our department work and much more.", 
+
+"not_all" => "<b>And that's just a little part of our projects. With us you can realize your best and newest ideas! </b>", 
+ ); 
 ?>

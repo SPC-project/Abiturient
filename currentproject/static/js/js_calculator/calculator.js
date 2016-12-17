@@ -1,149 +1,124 @@
-﻿
- function result() {
-var ukr=document.getElementById("input").value;
-var fori=document.getElementById("input1").value;
-var matan=document.getElementById("input2").value;
-var fiz=document.getElementById("input3").value;
-var atestat=document.getElementById("input4").value;
-var cours=document.getElementById("input7").value;
-console.log("qwerty"+ukr);
-alert("qwerty"+ukr);
-}
-
-input.onfocus = function() {
-  if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть
-    this.className = "";
-    error.innerHTML = "";
-  }
-};
-
-input1.onfocus = function() {
-  if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть
-    this.className = "";
-    error.innerHTML = "";
-  }
-};
-input2.onfocus = function() {
-  if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть
-    this.className = "";
-    error.innerHTML = "";
-  }
-};
-
-input3.onfocus = function() {
-  if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть
-    this.className = "";
-    error.innerHTML = "";
-  }
-};
-
-input4.onfocus = function() {
-  if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть
-    this.className = "";
-    error.innerHTML = "";
-  }
-};
-
-
-input8.onfocus = function() {
-  if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть
-    this.className = "";
-    error.innerHTML = "";
-  }
-};
-
-
-
-input9.onfocus = function() {
-  if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть
-    this.className = "";
-    error.innerHTML = "";
-  }
-};
-
-
-input7.onfocus = function() {
-  if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть
-    this.className = "";
-    error.innerHTML = "";
-  }
-};
-
-input.onblur = function() { 
+﻿input.onblur = function() { 
 if (this.value > 200 || this.value < 1) { // введено не число 
 // показать ошибку 
 this.className = "error"; 
-error.innerHTML = 'Число слишком большое. Исправьте, пожалуйста.' 
+error.innerHTML = 'Вы ввели дохера. Исправьте, пожалуйста.' 
 } 
 }; 
 
+input.onfocus = function() { 
+if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть 
+this.className = ""; 
+error.innerHTML = ""; 
+} 
+}; 
 
 input1.onblur = function() { 
 if (this.value > 200 || this.value < 1) { // введено не число 
 // показать ошибку 
 this.className = "error"; 
-error.innerHTML = 'Число слишком большое. Исправьте, пожалуйста.' 
+error.innerHTML = 'Вы ввели дохера. Исправьте, пожалуйста.' 
 } 
 }; 
 
-
+input1.onfocus = function() { 
+if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть 
+this.className = ""; 
+error.innerHTML = ""; 
+} 
+}; 
 input2.onblur = function() { 
 if (this.value > 200 || this.value < 1) { // введено не число 
 // показать ошибку 
 this.className = "error"; 
-error.innerHTML = 'Число слишком большое. Исправьте, пожалуйста.' 
+error.innerHTML = 'Вы ввели дохера. Исправьте, пожалуйста.' 
 } 
 }; 
 
-
+input2.onfocus = function() { 
+if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть 
+this.className = ""; 
+error.innerHTML = ""; 
+} 
+}; 
 input3.onblur = function() { 
 if (this.value > 200 || this.value < 1) { // введено не число 
 // показать ошибку 
 this.className = "error"; 
-error.innerHTML = 'Число слишком большое. Исправьте, пожалуйста.' 
+error.innerHTML = 'Вы ввели дохера. Исправьте, пожалуйста.' 
 } 
 }; 
 
-
+input3.onfocus = function() { 
+if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть 
+this.className = ""; 
+error.innerHTML = ""; 
+} 
+}; 
 
 input4.onblur = function() { 
 if (this.value > 200 || this.value < 1) { // введено не число 
 // показать ошибку 
 this.className = "error"; 
-error.innerHTML = 'Число слишком большое. Исправьте, пожалуйста.' 
+error.innerHTML = 'Вы ввели дохера. Исправьте, пожалуйста.' 
 } 
 }; 
 
-
+input4.onfocus = function() { 
+if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть 
+this.className = ""; 
+error.innerHTML = ""; 
+} 
+}; 
 
 input8.onblur = function() { 
 if (this.value > 200 || this.value < 1) { // введено не число 
 // показать ошибку 
 this.className = "error"; 
-error.innerHTML = 'Число слишком большое. Исправьте, пожалуйста.' 
+error.innerHTML = 'Вы ввели дохера. Исправьте, пожалуйста.' 
 } 
 }; 
+
+input8.onfocus = function() { 
+if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть 
+this.className = ""; 
+error.innerHTML = ""; 
+} 
+}; 
+
 
 input9.onblur = function() { 
 if (this.value > 200 || this.value < 1) { // введено не число 
 // показать ошибку 
 this.className = "error"; 
-error.innerHTML = 'Число слишком большое. Исправьте, пожалуйста.' 
+error.innerHTML = 'Вы ввели дохера. Исправьте, пожалуйста.' 
 } 
 }; 
 
-
+input9.onfocus = function() { 
+if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть 
+this.className = ""; 
+error.innerHTML = ""; 
+} 
+}; 
 
 input7.onblur = function() { 
 if (this.value > 200 || this.value < 1) { // введено не число 
 // показать ошибку 
 this.className = "error"; 
-error.innerHTML = 'Число слишком большое. Исправьте, пожалуйста.' 
+error.innerHTML = 'Вы ввели дохера. Исправьте, пожалуйста.' 
 } 
 }; 
 
- 
- function result() {
+input7.onfocus = function() { 
+if (this.className == 'error') { // сбросить состояние "ошибка", если оно есть 
+this.className = ""; 
+error.innerHTML = ""; 
+} 
+}; 
+
+
+function result() {
  
 var ukr=document.getElementById("input").value;
 var fori=document.getElementById("input1").value;
